@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+  .hero #title {
+    padding: 6%;
+  }
+  .fond_products {
+    display: inherit;
+    height: auto;
+    padding: 4%;
+  }
+  .product {
+    margin-top: auto;
+    height: auto;
+  }
+  .home_category {
+    display: inherit;
+  }
+  .categorys {
+    margin: auto;
+  }
+  .recomendation {
+    display: inherit;
+  }
+  .clients {
+    margin: auto;
+  }
+}

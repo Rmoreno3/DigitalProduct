@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+.titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.conte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+.conte p {
+  margin: 0;
+  padding-top: 10px;
+}
+.caja_1 {
+  display: flex;
+  justify-content: center;
+}
+.caja_2 {
+  display: flex;
+  justify-content: center;
+}
+.caja_3 {
+  display: flex;
+  justify-content: center;
+}
+.content_image {
+  width: 250px;
+  height: auto;
+  margin-right: 90px;
+}
+.content_image img {
+  width: 100%;
+  height: auto;
+}
+.content_image_1 {
+  width: 250px;
+  height: auto;
+  margin-left: 50px;
+}
+.content_image_1 img {
+  width: 100%;
+  height: auto;
+}

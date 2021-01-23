@@ -1,0 +1,221 @@
+/* Reseteando los estilos del navegador */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;;
+}
+@import url ('https://fonts.googleapis.com/css2? family = Open + Sans: wght @ 400; 700 & display = swap');
+/* Variables */
+:root {
+  --green_1: #7ACC2D;
+  --green_2: #5F932F;
+  --space: 10px;
+  --box: 0 0 2px;
+}
+/* Seccion de la cabezera */
+.cabezera_barra {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--green_1);
+  padding: var(--space);
+}
+.barra_lista {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+.barra_lista a {
+  text-decoration: none;
+  color: black;
+  padding-left: var(--space);
+}
+.barra_lista a:hover {
+  color: white;
+}
+/* Seccion del main */
+.title {
+  text-align: center;
+  padding: 15%;
+}
+.fond_products {
+  background-image: url('../image/curve.png');
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 15%;
+  display: flex;
+}
+.product {
+  margin-top: -250px;
+  height: 60vh;
+  padding: var(--space);
+}
+.product .product_1 {
+  background: white;
+  padding: 15px;
+  height: 100%;
+  text-align: center;
+  box-shadow: var(--box);
+}
+.product_1 h1, p {
+  margin: var(--space);
+  text-align: justify;
+}
+.product .product_2 {
+  background: white;
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+  box-shadow: var(--box);
+}
+.product_2 h1, p {
+  margin: var(--space);
+  text-align: justify;
+}
+.container_image {
+  text-align: center;
+  width: 100%;
+}
+.main_button {
+  background: var(--green_1);
+  width: 50%;
+  padding: var(--space);
+  font-size: 17px;
+  color: white;;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: var(--space);
+}
+.main_button:hover {
+  background: var(--green_2);
+}
+/* Seccion del Home categorias */
+.home_category {
+  display: flex;
+  padding: 15% 10%;
+  align-items: center;
+  height: auto;
+}
+.container_category {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.container_category img {
+  width: 150px;
+  height: 150px;
+}
+.categorys {
+  padding: var(--space);
+  align-items: center;
+  display: flex;
+  margin-right: 50px;
+}
+.categorys_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.categorys_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+.categorys_3 {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.title_category {
+  padding-left: 10px;
+  padding-top: 30px;
+}
+.categorys p {
+  padding-top: 30px;
+}
+/* Seccion de recomendacines clientes */
+.title_recomendation {
+  padding-top: 60px;
+  text-align: center;
+}
+.recomendation {
+  display: flex;
+  padding: 10%;
+  justify-content: space-between;
+}
+.clients {
+  /* padding: 5px; */
+  border: 1px solid #FFFFFF;
+  border-bottom: 5px solid #EEEEEE;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.clients_image {
+  width: 100%;
+}
+.clients_image img {
+  width: 100%;
+}
+.title_client {
+  padding-left: 10px;
+}
+/* seccion de ventas */
+.modulo_pago {
+  background-color: white;
+  box-shadow: 0px 0px 2px 1px #e6e5e9;
+  padding: var(--space);
+  width: 100%;
+}
+.modulo_pago .main_button {
+  width: 100%;
+}
+.contenedor_image {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.contenedor_image img {
+  width: 150px;
+}
+.modulo_pago p {
+  margin: 0px;
+  padding: 5px;
+}
+.cuerpo {
+  padding: 100px;
+}
+label {
+  font-size: 12px;
+}
+.data {
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+/* Seccion del footer */
+.pie {
+  background: #313337;
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 10vh;
+  padding-right: 10px;
+  padding-left: 10px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+.pie_lista {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+  flex-direction: row;
+}
